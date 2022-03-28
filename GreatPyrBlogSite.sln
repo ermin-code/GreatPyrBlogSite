@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatPyrBlogSite", "GreatPyrBlogSite.csproj", "{0023FC34-B39B-4389-8FEF-7CE15EF4EECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0023FC34-B39B-4389-8FEF-7CE15EF4EECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0023FC34-B39B-4389-8FEF-7CE15EF4EECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0023FC34-B39B-4389-8FEF-7CE15EF4EECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0023FC34-B39B-4389-8FEF-7CE15EF4EECE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDB18F88-08A7-455B-B26F-3A5B250819B1}
+	EndGlobalSection
+EndGlobal
