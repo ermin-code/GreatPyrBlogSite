@@ -14,12 +14,6 @@
                     <a href ="Home.aspx" style="color:#282828;"><%#Eval("Blogcategory") %></a>
                 </div>
                 <hr />
-
-
-
             </ItemTemplate>
-
-
-
         </asp:Repeater>
 </asp:Content>
