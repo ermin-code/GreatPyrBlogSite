@@ -64,7 +64,7 @@ using System.Data.SqlClient;
 using System.Configuration;
 
 How to run this project:
-First pick a rubric that you would like to post your blog page in. Click on the rubric folder and select Add -> Web Form with Master Page. In asp:Content add your HTML text to be displayed
+First pick a rubric that you would like to post your blog page in. Click on the rubric folder (Dog Food, Dog Health, Grooming) and select Add -> Web Form with Master Page. In asp:Content add your HTML text to be displayed
 on your blog page. Once blog page has been created, head to Admin-Login.aspx.cs and run the program. A log in page will show up. Under username enter "admin" and under password enter "pasha".
 Click on Submit. This will take you to Admin-Panel page. In this page select the rubric that you are posting your blog page in and then select name and extension of blog page that you created.
 Make sure that you enter description of your blog page as well. Once you click submit, all that information will be uploaded into SQLExpress database. On the right you will see counter
