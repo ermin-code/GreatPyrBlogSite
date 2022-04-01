@@ -11,7 +11,6 @@ namespace Create_Project.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void ButLogin_Click(object sender, EventArgs e)
@@ -19,7 +18,6 @@ namespace Create_Project.Admin
             if (TxtAdminLogin.Text == "admin" && TxtPassword.Text == "pasha") //admin is user name and pasha is password
             {
                 Response.Redirect("~/Admin/Admin-Panel.aspx");
-
             }
 
             else
@@ -27,7 +25,6 @@ namespace Create_Project.Admin
                 Response.Redirect("~/Admin/Admin-Login.aspx");
 
             }
-
             }
         }
     }

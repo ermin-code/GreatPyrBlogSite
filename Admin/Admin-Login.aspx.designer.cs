@@ -10,7 +10,6 @@
 namespace Create_Project.Admin
 {
 
-
     public partial class Admin_Login
     {
 

@@ -70,6 +70,7 @@
     <Content Include="Admin\Admin-Login.aspx" />
     <Content Include="Admin\Admin-Panel.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Dog Food\Blue Buffalo.aspx" />
     <Content Include="Dog Food\GreatPyrPuppyFood.aspx" />
     <Content Include="Dog Food\Home.aspx" />
     <Content Include="Dog Health\GreatPyrCare1.aspx" />
@@ -99,6 +100,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dog Food\Blue Buffalo.aspx.cs">
+      <DependentUpon>Blue Buffalo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dog Food\Blue Buffalo.aspx.designer.cs">
+      <DependentUpon>Blue Buffalo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dog Food\GreatPyrPuppyFood.aspx.cs">
       <DependentUpon>GreatPyrPuppyFood.aspx</DependentUpon>
