@@ -22,6 +22,36 @@ More information about the database used:
 
 SQLExpress Server Database ("gp" is the name of the database and the list is dbo.gpblog)
 
+Database Setup Instructions (Mandatory):
+
+Microsoft .NET 4.8 Framework must be installed
+
+Microsoft SQL Express Server must be installed (https://www.microsoft.com/en-us/Download/confirmation.aspx?id=101064)
+
+Microsoft SQL Server Managment Studio must be installed (https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
+
+In SQL Server Managment Studio:
+
+Server name: 'your laptop's name'\SQLEXPRESS or .\SQLEXPRESS (this is a default config.)
+
+Once logged in, select Databases Folder -> New Database
+
+Name database as gp
+
+select gp database, click new Query and then add the following data:
+
+create table gpblog
+(
+Blogid int not null primary key identity(1,1),
+Blogtitle nvarchar(150),
+Blogcategory nvarchar(150),
+BlogDesc nvarchar(300),
+BlogUrl nvarchar(300),
+Blogposteddate datetime
+);
+
+This will create a table named gpblog and this table will be used to populate and retrieve data from the blog website. 
+
 Project packages:
 using System;
 using System.Collections.Generic;
