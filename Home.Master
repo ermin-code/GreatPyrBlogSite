@@ -10,9 +10,6 @@
     
   <div class="container" style="margin-top:40px;">
 
-      
-    
- 
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 " style="background-color:#554a38">
       <a href="/" class="align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none .bg-primary-">
         <svg class="bi me-2" width="40" height="40"><use xlink:href="#bootstrap"/></svg>
@@ -56,13 +53,10 @@
     </span>
   </li>
 </ul>
-
-
                 </div>
             </div>
         </div>
         </div>
-    </form>
-    
+    </form> 
 </body>
 </html>

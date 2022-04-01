@@ -9,11 +9,8 @@
 
 namespace Create_Project
 {
-
-
     public partial class Default
     {
-
         /// <summary>
         /// RepBlogDetails control.
         /// </summary>

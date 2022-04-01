@@ -12,12 +12,8 @@ namespace Create_Project
 {
     public partial class Default : System.Web.UI.Page 
     {
-        
-
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            
             string mainconn = ConfigurationManager.ConnectionStrings["Myconnection"].ConnectionString;
             SqlConnection sqlconn=new SqlConnection(mainconn);
             string sqlquery = "select * from [dbo].[gpblog] order by Blogposteddate DESC";
