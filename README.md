@@ -24,7 +24,7 @@ SQLExpress Server Database ("gp" is the name of the database and the list is dbo
 
 Database Setup Instructions (Mandatory):
 
-Microsoft .NET 4.8 Framework must be installed
+Microsoft .NET 4.6.2 Framework must be installed (https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net462-web-installer)
 
 Microsoft SQL Express Server must be installed (https://www.microsoft.com/en-us/Download/confirmation.aspx?id=101064)
 
