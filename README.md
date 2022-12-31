@@ -1,6 +1,6 @@
 Great Pyr Blog Site - Software Development 2 (C#/.NET) Project
 
-This project is about a blog website that I created to help dog owners and Great Pyranees breed owners in particular learn more about their animals and how to better take care of them. 
+This project is about a blog website that I created to help dog owners and Great Pyrenees breed owners in particular learn more about their animals and how to better take care of them. 
 There are two main sections to this blog website. First section is "Admin-Login" section. This section allows user to log in to the website, enter username and password and then be redirected 
 to "Admin-Panel" section. In "Admin-Panel" section user then appends newly created homepage (that is placed in either "Dog Food", "Dog Health" or "Grooming" folder) to SQLExpress "gp" database.
 Once newly created webpage is appended to the database, counter on the right changes indicating total number of articles under that particular section. Second section of this blog website
